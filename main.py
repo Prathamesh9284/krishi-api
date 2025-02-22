@@ -33,7 +33,7 @@ embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-
 
 
 vectorstore = FAISS.load_local(
-    folder_path=r'D:\KrishiShakti\rag\notebooks\vectors',  # Path to the folder where the index is saved
+    folder_path=r'vectors',  # Path to the folder where the index is saved
     embeddings=embeddings,
     allow_dangerous_deserialization=True
 )
