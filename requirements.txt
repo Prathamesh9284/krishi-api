@@ -1,0 +1,11 @@
+﻿fastapi
+uvicorn
+langchain
+langchain_groq
+langchain_huggingface
+langchain_community
+langgraph
+typing-extensions
+faiss-cpu
+python-dotenv
+python-multipart
