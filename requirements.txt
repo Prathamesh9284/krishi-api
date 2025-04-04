@@ -1,4 +1,4 @@
-fastapi
+﻿fastapi
 uvicorn
 langchain
 langchain_groq
@@ -8,3 +8,4 @@ langgraph
 typing-extensions
 faiss-cpu
 python-dotenv
+python-multipart
